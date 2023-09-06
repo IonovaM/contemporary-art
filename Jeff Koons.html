@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeff Koons</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Джефф Кунс/Джефф Кунс pr.jpeg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-6 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Jeff Koons6.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Jeff Koons</h1>
+                <p class="main-cont__text">
+                  – современный американский художник. Основатель и президент корпорации «Jeff Koons LLC», 
+                  которая специализируется на создании произведений искусства.
+                </p>
+                <p class="main-cont__text">
+                  Почитатели считают его продолжателем идей Энди Уорхола, а недоброжелатели – кичевым ремесленником, 
+                  извратившим в угоду коммерции базовые принципы изобразительного искусства. Но как бы то ни было, 
+                  творчество Джеффа Кунса всегда привлекает внимание критиков и поклонников прекрасного. Оно будоражит, 
+                  провоцирует и вызывает массу ярких эмоций. Считается, что творчество Кунса  относится к стилю нео-поп арт.
+                </p>
+                <p class="main-cont__text">
+                  Родился будущий художник в городе Йорке, штат Пенсильвания. В подростковом возрасте он познакомился с 
+                  творчеством Сальвадора Дали и Энди Уорхола и именно они определили его дальнейшую судьбу. Еще в 
+                  студенческие годы художник отличался эксцентричностью не только во взглядах, но и в манере себя 
+                  подавать: красные волосы и небольшие усики выделяли его из толпы. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  После завершения Мэрилендского художественного колледжа некоторое время Кунс работал брокером на Уолл-Стрит. 
+                  По словам самого мастера, это помогло ему изучить психологию людей и взглянуть на свою творческую 
+                  деятельность под другим углом. Критики предполагают, что именно опыт брокером превратил Кунса в машину 
+                  для зарабатывания денег.
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Особенности творчества Джеффа Кунса</h4>
+                <p class="main-cont__text">
+                  Творчество художника относят к стилю нео-поп арт. Он возник в 80-х годах на фоне усталости зрителя 
+                  от сдержанных, в плане художественной выразительности, произведений минималистов. Для нео-поп арта 
+                  характерны: яркость, насыщенность цветов, смысловая простота образов, акцент на эмоциях и связь с 
+                  массовой культурой. Джефф Кунс умело использует в своем творчестве запрос современного общества на 
+                  доступное искусство, не требующее от зрителя долгих размышлений и теоретической подготовки. Возможно, 
+                  в этом и заключается секрет его успеха.
+                </p>
+                <p class="main-cont__text">
+                  В середине 80-х годов Джефф Кунс начал получать признание как художник, автор ряда концептуальных 
+                  скульптур и инсталляций, влияние которых на творчество художников последующих десятилетий не раз 
+                  отмечалось многими арт-критиками. Среди работ указанного периода можно отметить целую серию инсталляций 
+                  с пылесосами (например, «Two vacuum cleaners», 1980), где сам объект (в данном случае пылесос) – по 
+                  одной из интерпретаций – лишался своего функционального значения и получал новый смысл уже как часть 
+                  арт-объекта. При этом назвать данную работу рэди-мейдом было бы неправильно, т.к. объект представлен 
+                  как часть композиции, а не сам по себе. Эта идея в последствии получила множество воплощений, например, 
+                  в творчестве Матье Мерсье, инсталляции которого также представляют собой объекты знакомые любому 
+                  обывателю, но обретающие новые смыслы при сочетании с другими подобными объектами.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Two vacuum cleaners (1980).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Two vacuum cleaners (1980)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Three Ball 50:50 Tank (1985).png" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Three Ball 50:50 Tank (1985)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Rabbit (1986).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Rabbit (1986)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Другой заметной работой 80-х годов является серия «Равновесие» (1985), которая представляет собой ряд 
+                  инсталляций с баскетбольными мячами помещенными с стеклянные емкости полностью заполненные водой. Чуть 
+                  позднее возникла вторая версия данной работы под названием «Три мяча 50/50 Бак», где резервуар был 
+                  наполнен водой наполовину. Здесь вновь можно говорить о влияние Кунса на творчество последующих художников, 
+                  имея ввиду работы Дэмиена Херста ("Физическая невозможность смерти в сознании живущего", "Разделённые мать 
+                  и дитя" и др.).
+                </p>
+                <p class="main-cont__text">
+                  В 1986 году Джефф Кунс создал скульптуру «Кролик» (англ. «Rabbit»), которую и по сей день можно считать 
+                  одной из визитных карточек художника. Надо отметить, что сама идея использовать надувные игрушки возникла 
+                  еще в середине 70-х годов. В скульптуре 1986 года Кунс воплотил уже не раз использованную им форму надувной 
+                  игрушки в полированной нержавеющей стали. В 2007 году данный образ был использован во время парада в честь 
+                  Дня Благодарения в Нью-Йорке.
+                </p>
+                <p class="main-cont__text">
+                  Тема «общество потребления» нашла свое отражение и в последующих работах Кунса. В том же 1986 году он 
+                  создал серию «Роскошь и деградация». Здесь все работы представляют собой либо рекламные постеры различных 
+                  алкогольных компаний, либо скульптуры поездов, наполненных алкоголем (отсылка к «поездам» Jim Beam). Сам 
+                  Кунс в интервью Наоми Кемпбелл от 30 января 2015 года сказал: «Идея была в том, чтобы создать что-то 
+                  визуально охмеляющее, сохранить душу алкоголя». При этом алкоголь здесь выступает в качестве одного из 
+                  элементов все того же общества потребления. Мысль создать нечто подобное пришла к художнику, когда он 
+                  заметил, как отличается реклама алкогольной продукции в бедных и богатых районах Нью-Йорка. Рассуждая на 
+                  тему данной серии, Кунс также сказал: «в зависимости от уровня достатка общество хочет, чтобы ты вытянул 
+                  себя за волосы, стал много зарабатывать, стал успешным, а потом оно же и бьет тебя всем этим по башке — и 
+                  начинается деградация».
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Luxury and Degradation (1986).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Luxury and Degradation (1986)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Ushering in Banality (1988).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Ushering in Banality (1988)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  В 1988 году Кунс представил публики свою следующую серию работ под названием «Банальности». Перед тем, 
+                  как приступить к работе он посещал занятия по работе с фарфором и керамикой в Италии и Германии. Следует 
+                  отметить, что скульптурное изображение Майкла Джексона с обезьяной, которое также может считаться одной 
+                  из наиболее узнаваемых работ художника, была создана именно как часть данной серии. Также данная серия 
+                  стала отправной точкой для роста популярности Кунса за пределами США, что, впрочем, сложно объяснить 
+                  исключительно художественной стороной вопроса. Известно, например, что сам Кунс активно популяризировал 
+                  свои работы, давал интервью иностранным арт-журналам, причем иногда рекламировал свои выставки от третьего 
+                  лица, т.е. как посторонний эксперт.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Puppy (1992).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Puppy (1992)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Balloon Dog (1994).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Balloon Dog (1994)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  В 1992 Джефф Кунс на «documeta IX» (выставка современного искусства в Германии) в замке Арользен представил 
+                  свое новое произведение под названием «Щенок» (англ. «Puppy»). 13-метровая скульптура вест-хайленд-уайт-терьера 
+                  состоит из десятков тысяч живых цветов и является одной из самых крупных топиари в мире. В настоящее время 
+                  скульптура является одной из достопримечательностей Биль-Бао (Испания) и принадлежит музею современного искусства 
+                  Гуггенхайма. Примерно в это же время художник начал подготовку к созданию первых работ для уже следующей серии 
+                  «Праздник» (англ. «Celebration»). Фактически новые работы этой серии появляются по сей день и иногда сложно 
+                  пределить, что именно их объединяет. Частью именно этой серии является известная "Balloon Dog", которая, очевидно, 
+                  является продолжением воплощения той формы, которую можно увидеть в уже упоминавшийся работе «Кролик» (1986).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Ercole Farnese (2013).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Ercole Farnese (2013)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Balloon Venus (2016).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Balloon Venus (2016)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/ Gazing Ball (da Vinci Mona Lisa) (2015).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Gazing Ball (da Vinci Mona Lisa) (2015)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Джеффа Кунса часто сравнивают с Энди Уорхоллом. Сравнение это напрашивается само собой сразу по нескольким 
+                  причинам. Во-первых, Кунс создал нечто похожее на Фабрику Уорхолла. В его случае это называется корпорация 
+                  «Jeff Koons LLC». Фактически, в настоящее время художник занимается тем, что создает первоначальный проект 
+                  или даже идею будущего арт-объекта, а затем его сотрудники воплощают этот проект в жизнь в нескольких вариантах, 
+                  из которых Кунс позднее выбирает лучший. Кроме того, оба художника много работали с образами знаменитостей 
+                  (в случае с Кунсом речь идет о его сотрудничестве в Леди Гагой). Даже сам стиль в котором работает Кунс часто 
+                  определяется как поп-арт или как нео-поп (учитывая, что сам поп-арт имеет временные рамки), либо же как китч (в 
+                  том случае, если речь идет о работе с предметами массового потребления, с игрой на «дурном вкусе» публики или 
+                  если надо подчеркнуть, что сфера деятельности художника в данном случае – массовая культура). При этом китч в 
+                  работах Кунса чувствуется даже тогда, когда он создает работы на отстраненные (например, исторические) темы. 
+                  Примером здесь может служить серия «Античность», в которой Кунс берет за основу стилистику и сюжеты древней 
+                  Греции и древнего Рима, но обрабатывает их в своей манере, получая нечто вроде коллажей, выполненных в стиле, 
+                  как минимум, близком к поп-ару. Особое внимание здесь надо обратить на работу «Balloon Venus», которая представляет 
+                  собой версию Палеолитической Венеры в фирменном стиле Кунса. Впрочем, если рассматривать эротику в работах данного 
+                  художника как просто неотъемлемый атрибут массовой культуры, с котором он работает, то, возможно, и его интерес к 
+                  историческим образам может быть интерпретирован как некая спекуляция на тему, т.е. как все тот же китч.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Michael Jackson and Bubbles (1988).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Michael Jackson and Bubbles (1988)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Джефф Кунс/Play-Doh (1994).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Play-Doh (1994)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Jeff Koons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

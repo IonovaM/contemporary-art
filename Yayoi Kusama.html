@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yayoi Kusama</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Яеи Кусама/Яеи Кусама LV.webp">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-5 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Яеи Кусама.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Yayoi Kusama</h1>
+                <p class="main-cont__text">
+                  – японская художница. Получила известность как автор работ, содержащих многократное повторение 
+                  одного и того же элемента. В 2008 году одна из её работ была продана за 5100000 долларов США, 
+                  что является рекордом для художника-женщины.
+                  Она с детства страдает галлюцинациями и порой видит мир, наполненным точками, кругами и цветами. 
+                  Всё это Яёи с энтузиазмом переносит в свои работы. 
+                </p>
+                <p class="main-cont__text">
+                  Сейчас Кусаме 91 год, и она считается звездой современного искусства, самой инстаграмной и дорогой из 
+                  ныне живущих художниц. В 2014 году на аукционе Christie’s в Нью-Йорке её ранняя работа «Белый № 28»  
+                  была продана за рекордные $7,1 млн. В 2019-м ее картина из знаменитой серии «Тыквы» была продана на 
+                  Sotheby’s в Гонконге за $6,9 млн. В 2017 году в Токио открылся пятиэтажный музей Яёи Кусамы, попасть в 
+                  который можно, только если успеете купить онлайн-билеты на 1,5-2 месяца вперёд.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Влияние внешнего мира</h4>
+                <p class="main-cont__text">
+                  Успех и признание пришли к Кусаме далеко не сразу. Она родилась и выросла в небольшом японском городе 
+                  Мацумото. Её семья занималась прибыльным бизнесом, владела фермами и недвижимостью, их финансовое 
+                  положение было достаточно стабильным. Но отношения членов семьи были далеки от идеала: отец имел 
+                  многочисленных любовниц, а мать, строгая бизнес-леди, срывала свои злость и отчаяние на дочери. 
+                  Кроме того, маленькую Яёи заставляли шпионить за отцом. Травмирующий опыт предательства и увиденных 
+                  интимных сцен позже, разумеется, отразятся на творчестве художницы. К тому же, на фоне этого мать 
+                  постоянно ей твердила о главном женском предназначении – выйти замуж. 
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Первые работы</h4>
+                <p class="main-cont__text">
+                  Рисовать Кусама начала в 10 лет. Примерно тогда она стала чувствовать необходимость переносить свои 
+                  переживания и обсессии на бумагу. Мать не одобряла её творчество и разрывала в клочья рисунки и холсты. 
+                  Другие ранние работы Яёи сама сожжет на берегу реки у своего дома перед тем, как покинуть Японию. 
+                </p>
+                <p class="main-cont__text">
+                  Ещё одним переживанием будущей художницы стала Вторая мировая война. На её глазах не разрывались снаряды, 
+                  и ей не пришлось сталкиваться со всеми ужасами войны, но часть детства прошла на фабрике по производству 
+                  парашютов для военных нужд.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-3 col-md-3 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/White No. 28 (1960).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">White No. 28 (1960)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Pumpkin (TWPOT) (2010).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Pumpkin (TWPOT) (2010)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Untitled (1976).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Untitled (1976)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  С помощью своего творчества Кусама спасалась от галлюцинаций и навязчивых образов. Она обладала невероятным 
+                  запасом энергии и верой в себя, но больше в неё почти никто не верил. Первая выставка абстрактных работ Кусамы 
+                  осталась абсолютно незамеченной консервативной японской публикой, и юная художница решилась покорять Нью-Йорк. 
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Переезд в Нью-Йорк</h4>
+                <p class="main-cont__text">
+                  29-летняя Яёи с минимальным количеством денег приехала в США и окунулась в мир, где современное искусство делали 
+                  только белые мужчины. Даже женщины-кураторы и галеристки предпочитали не рисковать и не работали со странной японкой. 
+                  Впрочем, Кусама не стремилась соответствовать вкусам публики. Она совершенно обособлено представляла новое арт-течение. 
+                  Среди первых, кто оценил талант и поддержал Кусаму, была Джорджия О'Кифф. С ней Яёи была знакома по переписке, ценила 
+                  её талант и вдохновлялась успехом как одной из первых женщин в арт-мире Америки.
+                </p>
+                <p class="main-cont__text">
+                  Кусама посвящала творчеству всё свое время, создавала гигантские монохромные полотна, покрытые бесконечными гнёздами. 
+                  Эти гнёзда, по словам художницы, выражают то её позитивное отношение к миру, то страх перед бесконечностью вселенной. 
+                  Работы удалось показать в Бруклинском музее на групповой выставке, где также участвовали знаковые художники того 
+                  времени: Ив Кляйн, Лучо Фонтана, Пьеро Мандзони. Так Кусаму заметили критики и арт-сообщество. У неё появились друзья, 
+                  был и десятилетний платонический роман с уже седовласым сюрреалистом Джозефом Корнелом. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Infinity Mirror Room - Phalli's Field (Floor Show) (1965) .webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Infinity Mirror Room - Phalli's Field (Floor Show) (1965)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Thousand Boat Show (1964).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Thousand Boat Show (1964)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Скульптуры</h4>
+                <p class="main-cont__text">
+                  С 1962 года Кусама создает мягкие скульптуры. Первой стала «Аккумуляция №1» – кресло, покрытое мягкими 
+                  выпуклостями фаллического характера.
+                </p>
+                <p class="main-cont__text">
+                  Важной стала и работа 1964 года – «Шоу тысячи лодок». Настоящая гребная лодка была покрыта мягкими 
+                  выступами и помещена в комнату, обклеенную 999 изображениями этой же лодки.  
+                  Работы и идеи Кусамы вызывали восторг и… желание копировать. Так, Энди Уорхол начал делать серии «Цветы», 
+                  оклеивая стены повторяющимися картинами, а Клас Олденбург, ещё недавно работавший с техникой папье маше, 
+                  на очередной выставке представил свои мягкие скульптуры. На открытии жена Класа извинялась перед Яёи за 
+                  очевидное копирование её новой техники и формы. 
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Комнаты</h4>
+                <p class="main-cont__text">
+                  В 1965 году Кусама представила свою первую бесконечную зеркальную комнату. Идея отсылает к детству 
+                  художницы, когда она делала одни и те же работы в разных размерах – больших, средних и маленьких. 
+                  Спустя два года Лукас Самарас тоже создает зеркальные комнаты. Реакция художницы, привыкшей к тому, 
+                  что её идеи присваиваются, была сдержанной: «Он сделал это снова».
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Психиатрическая больница</h4>
+                <p class="main-cont__text">
+                  В 1973 году здоровье Яёи ухудшилось, и она вернулась в Японию, где могла довериться опытным врачам. 
+                  В эти годы она излечилась от болезни Грейвса и миомы матки. К сожалению, справиться с 
+                  обсессивно-компульсивным неврозом не удалось, и Кусама была госпитализирована в психиатрическую больницу, 
+                  где и живет до настоящего времени. Будучи профессиональным художником, она занимается арт-терапией в своей 
+                  мастерской, которая находится в шаговой доступности от лечебницы. Там же Яёи начала писать стихи и рассказы.  
+                </p>
+                <p class="main-cont__text">
+                  В 1990-х о художнице стали постепенно вспоминать как об иконе 1960-х годов. Начали проходить ретроспективы 
+                  и выставки. Важным для возвращения в мир современного искусства стало участие Кусамы в Венецианской биеннале 
+                  в 1993 году. Она уже официально представляла Японию своей зеркальной комнатой «Тыква». 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/Obliteration room (2002).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Obliteration room (2002)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Яеи Кусама/mirror room Pumpkin (2011).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mirror room "Pumpkin" (2011)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Yayoi Kusama</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

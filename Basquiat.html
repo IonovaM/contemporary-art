@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jean-Michel Basquiat</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Жан-Мишель Баския/Jean-Michel Basquiat 7.jpeg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section style="background-image: url(images/back/paper.jpg); background-size: cover">
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/Jean-Michel.jpeg" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-5 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto pt-4" style="text-align:justify;">
+                  <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important;">Jean-Michel Basquiat</h1>
+                  <p class="main-cont__text">
+                    - американский художник, который начал свою 
+                    карьеру с граффити и стрит-арта. Параллельно занимался музыкой, несколько лет жил 
+                    на улицах Нью-Йорка. В возрасте 22 лет познакомился с Энди Уорхолом и стал его подопечным. 
+                    Баския стал первым темнокожим художником, добившимся популярности. Но из-за наркотческой 
+                    зависимости он прожил всего 27 лет. Баския родился в Нью-Йорке - в Бруклине. У него было 
+                    две младшие сестры. Его мать, Матильда, была из Пуэрто-Рико, а отец, Джерард, имел 
+                    гаитянские корни. Благодаря этому Мишель с детства свободно говорил на французском, 
+                    испанском и английском языках, читал книги, в том числе поэзию символистов, мифы и историю.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row" style="min-height: 50vh;">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:center;">"I'm not a real person. I'm a legend."</h2>
+                <h6 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">JEAN-MICHEL BASQUIAT</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row pb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Важно понимать контекст, в котором начинается творческий путь Баския. Нью-Йорк 70-ых 
+                    далек от того, что мы привыкли видеть в голливудском кино. Тогда царила нищета и безработица. 
+                    А владельцы квартир порой и вовсе находили более выгодным сжечь квартиру, получив выплату 
+                    по страховке, нежели продолжать там жить. Повсюду продавали наркотики, причем во многих 
+                    общественных местах вроде Центрального Парка это делали открыто. В это время Жан-Мишель 
+                    живет с отцом. И однажды из-за разлада в семье он сбегает из дома. То, что окружает юного 
+                    художника, похоже на Готэм, однако именно тогда у Баския появляется идея проекта SAMO. 
+                  </p>
+                  <p class="main-cont__text">
+                    В 17 лет со своим другом Аль Диазом (Al Diaz), Жан-Мишель оставляет послания рядом с 
+                    художественным кварталом Сохо. Все надписи и символы подписывались словом SAMO 
+                    (с англ. Same Old - то же самое). Как вспоминал Аль Диаз в одном из интервью, они 
+                    хотели сделать что-то в противовес уже привычной культуре граффити. Они писали разные 
+                    тексты: какие-то были юмористические, а какие-то бунтарские, направленные на текущие 
+                    проблемы города. Но главным было то, что они никак не расшифровывали и не объясняли свои 
+                    работы. Более того — никто не знал, кто стоит за SAMO. Но тэг постепенно становился 
+                    известным всем кругам Нью-Йорка.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/SAMO.jpeg" alt="" class="img-fluid pb-4">
+                <img src="images/Жан-Мишель Баския/Samo-graffiti.jpeg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/холодильник.jpeg" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto pt-4" style="text-align:justify;">
+                  <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important;">Jean-Michel Basquiat</h1>
+                  <p class="main-cont__text">
+                    Галереи Нью-Йорка привили юному Баския любовь к искусству, однако он черпал вдохновение 
+                    буквально отовсюду. Например, в 7 лет его сбила машина. Тогда его мать Матильда принесла 
+                    ему книгу «Анатомия Грея» (Gray’s Anatomy). Баския так вдохновился этим произведением, 
+                    что черепа, скелеты и сухожилия стали популярными элементами в его работах. И такое 
+                    происходило со всем вокруг. Он мог прочитать комикс и изобразить персонажей в своих работах. 
+                    Любопытный также был и процесс создания работ. Во-первых, полотна порой могло и не быть вовсе. 
+                    Вернее, любой предмет в квартире мог стать им. Жан-Мишель рисовал на открытках, стенах и 
+                    холодильнике. 
+                  </p>
+                  <p class="main-cont__text">
+                    Творческий стиль Баския также был нестандартен. Самым очевидным является детский стиль, 
+                    который свободно использовал Жан-Мишель. Это давало ему определенную свободу, 
+                    которую не могли себе позволить другие художники. Его произведения составлялись из нескольких слоев, 
+                    где были разные символы и надписи из газет, меню близлежащих кафе и других элементов поп-культуры. 
+                    Полотно художника, чем бы оно ни являлось, составляет из себя многослойную композицию. 
+                    Ее нужно исследовать, словно энциклопедию, где за каждой литерой таятся новые значения. 
+                    Такой рваный формат в какой-то мере предвосхитил тэгирование, которое сейчас мы встречаем повсюду. 
+                    Также он смело использовал цвет: сочетал зеленый с розовым и красный с оранжевым, не боясь 
+                    перегрузить картину.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row" style="min-height: 50vh;">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:center;">"I don't think about art when I'm working. I try to think about life."</h2>
+                <h6 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">JEAN-MICHEL BASQUIAT</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important;">Jean-Michel Basquiat and Andy Warhol</h1>
+                  <p class="main-cont__text">
+                    О новой знаменитости Нью-Йорка узнал и Энди Уорхол (Andy Warhol). 
+                    Тогда его слава немного угасла, однако на него все еще равнялись молодые художники.
+                    В 1982 году их познакомил швейцарский галерист и коллекционер Бруно Бишофбергер, что и 
+                    выливается в долгую и крепкую дружбу. Тогда Уорхол сделал на полароид совместную фотографию 
+                    с Баскией. Жан-Мишель схватил ее, побежал в свою студию — и через два часа вернулся с 
+                    картиной Dos Cabeza, срисованной с этого кадра.
+                  </p>
+                  <p class="main-cont__text">
+                    В 1983-85 гг. Уорхол и Баския работали над серией совместных картин. В этот период 
+                    Баския часто появлялся на публике в дорогих костюмах Армани, а также в забрызганной 
+                    краской одежде. 10 февраля 1985 года он появился на обложке журнала New York Times 
+                    под заголовком: "Новое искусство, новые деньги: маркетинг американского художника" 
+                    ("New Art, New Money: The Marketing of an American Artist").
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/dos cabezas.jpeg" alt="" class="img-fluid">
+                <h2 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">Dos Cabezas (1982)</h2>
+                <h6 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">Jean-Michel Basquiat</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont pb-5">
+          <div class="container-fluid py-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-12 py-2 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/Riding on death.jpeg" alt="" class="img-fluid">
+                <h2 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:start;">Riding with Death (1988)</h2>
+                <h6 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:start;">Jean-Michel Basquiat</h6>
+              </div>
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Творчество Баския можно условно разделить на три периода. В ранний период, 
+                    с 1980 по 1982, он часто изображает скелеты и маскообразные лица, в чем выражается 
+                    его необычайный интерес к смертности. Другие наиболее частые образы: автомобили, здания, 
+                    полиция, игры детей на тротуаре и граффити, пришедшие из его опыта рисования на улицах города. 
+                    Средний период, с конца 1982 по 1985 год отмечен интересом Баския к его гаитянским корням. 
+                    Последний период, с 1986 до смерти в 1988, отмечен новой манерой и новыми образами.
+                    
+                  </p>
+                  <p class="main-cont__text">
+                    12 августа 1988 года Жан-Мишель Баския умер в своей студии на Грейт Джонс-стрит 
+                    в районе Нохо, в нижнем Манхэттене. Причиной смерти стала передозировка наркотиком 
+                    под названием «Speedball» (смесь кокаина и героина). Баскии было 27 лет. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      
+
+      <section style="background-image: url(images/back/paper.jpg); background-size: cover">
+        <section class="main-sl pb-5">
+          <img class="d-block w-100" src="images/Жан-Мишель Баския/notary 1983.jpeg">
+          <h2 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">Notary (1983)</h2>
+          <h6 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important; text-align:end;">Jean-Michel Basquiat</h6>
+        </section>
+        <section class="main-cont">
+          <div class="container-fluid py-5">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Баския с детства обожал джаз и би-боп, мечтая собрать собственную группу. 
+                    И уже в 1979 году он вместе с друзьями начинает играть некую смесь джаза, 
+                    фанка и синт-попа. Поначалу группа называлась «Test Pattern», но Баския быстро 
+                    переименовал ее в «Gray», сделав таким образом один из первых реверансов в адрес 
+                    пресловутой «Анатомии Грея».
+                  </p>
+                  <p class="main-cont__text">
+                    Друзья рассказывали, что когда художник писал, он штурмовал себя информацией 
+                    со всех сторон. В студии играл джаз, перекрикивая работающий телевизор, а на 
+                    всех доступных поверхностях лежали раскрытые книги. И среди них, само собой, 
+                    анатомический учебник. Баския даже мечтал, что однажды бросит все и уедет на Гавайи, 
+                    откроет маленькую фабрику по производству текилы и будет пить целыми днями, 
+                    а по вечерам играть джаз в местных кабаках.
+                  </p>
+                  <p class="main-cont__text">
+                    Творчество Баския можно условно разделить на три периода. В ранний период, с 1980 
+                    по 1982, он часто изображает скелеты и маскообразные лица, в чем выражается его 
+                    необычайный интерес к смертности. Другие наиболее частые образы: автомобили, здания, 
+                    полиция, игры детей на тротуаре и граффити, пришедшие из его опыта рисования на 
+                    улицах города. Средний период, с конца 1982 по 1985 год отмечен интересом Баския 
+                    к его гаитянским корням. Последний период, с 1986 до смерти в 1988, отмечен новой 
+                    манерой и новыми образами.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="gallery">
+          <div class="container-fluid pb-5">
+            <div class="grid" id="grid">
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Because it Hurts 1980.webp" data-caption='Because it Hurts (1980)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Because it Hurts 1980.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Bird on Money 1981.jpg" data-caption='Bird on Money (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Bird on Money 1981.jpg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled1981.webp" data-caption='Untitled (1981)'>
+                    <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled1981.webp" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled (Fallen Angel) 1981.jpeg" data-caption='Untitled (Fallen Angel) (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled (Fallen Angel) 1981.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/The Field Next to the Other Road, 1981.webp" data-caption='The Field Next to the Other Road (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/The Field Next to the Other Road, 1981.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/ La Hara 1981.webp" data-caption='La Hara (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/ La Hara 1981.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/The Ring 1981.webp" data-caption='The Ring (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/The Ring 1981.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled (Skull) 1981.webp" data-caption='Untitled (Skull) (1981)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled (Skull) 1981.webp" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Warrior 1982.webp" data-caption='Warrior (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Warrior 1982.webp" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Versus Medici 1982.webp" data-caption='Versus Medici (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Versus Medici 1982.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled (devil) 1982.jpeg" data-caption='Untitled (devil) (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled (devil) 1982.jpeg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Dustheads 1982.webp" data-caption='Dustheads (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Dustheads 1982.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Boy and Dog in a Johnnypump 1982.webp" data-caption='Boy and Dog in a Johnnypump (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Boy and Dog in a Johnnypump 1982.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Obnoxious Liberals, 1982.png" data-caption='Obnoxious Liberals (1982)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Obnoxious Liberals, 1982.png" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Tuxedo 1983.jpeg" data-caption='Tuxedo (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Tuxedo 1983.jpeg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Self Portrait, 1983.jpg" data-caption='Self Portrait (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Self Portrait, 1983.jpg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/masonic lodge 1983.webp" data-caption='Masonic Lodge (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/masonic lodge 1983.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Hollywood Africans 1983.webp" data-caption='Hollywood Africans (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Hollywood Africans 1983.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/in this case 1983.jpg" data-caption='In This Case (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/in this case 1983.jpg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Jailbirds, 1983..jpeg" data-caption='Jailbirds (1983)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Jailbirds, 1983..jpeg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Автопортрет.webp" data-caption='Self Portrait (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Автопортрет.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Aboriginal 1984.webp" data-caption='Aboriginal (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Aboriginal 1984.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Flexible  1984.webp" data-caption='Flexible (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Flexible  1984.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Glenn 1984.webp" data-caption='Glenn (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Glenn 1984.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Origin of Cotton 1984.webp" data-caption='Origin of Cotton (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Origin of Cotton 1984.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/zydeco 1984.jpeg" data-caption='Zydeco (1984)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/zydeco 1984.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/King Zulu 1986.jpeg" data-caption='King Zulu (1986)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/King Zulu 1986.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Lester Yellow, 1987.webp" data-caption='Lester Yellow (1987)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Lester Yellow, 1987.webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled 1985.jpg" data-caption='Untitled (1985)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled 1985.jpg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Untitled, 1985 .webp" data-caption='Untitled (1985)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Untitled, 1985 .webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Universal, 1987.jpeg" data-caption='Universal (1987)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Universal, 1987.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/UNTITLED (1987).webp" data-caption='Untitled (1987)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/UNTITLED (1987).webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Self-Portrait (1988).webp" data-caption='Self-Portrait (1988)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Self-Portrait (1988).webp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Жан-Мишель Баския/Exu 1988.webp" data-caption='Exu (1988)'>
+                  <img class="img-responsive" src="images/Жан-Мишель Баския/Exu 1988.webp" alt="">
+                </a>
+              </div>
+            </div>          
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid py-5">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Считается, что Баския был одним из выдающихся представителей молодого творческого 
+                    течения — неоэкспрессионизма. Течение появилось в конце 1970-х как противоположность 
+                    минимализму и концептуализму. Неоэкспрессионизм подразумевает «грубую» работу, яркие цвета. 
+                    Художник черпал вдохновение из истории своего окружения, а также отражал атмосферу того времени.
+                  </p>
+                  <p class="main-cont__text">
+                    Баскиа был самым востребованным и самым дорогим современным художником уже в 2000 году. 
+                    С тех пор изменился только уровень цен.
+                  </p>
+                  <p class="main-cont__text">
+                    Превысив символический порог в $100 млн, Баскиа утвердил свой статус рыночной легенды, 
+                    как до него это сделал Пикассо. Однако рынки этих художников имеют совершенно разные 
+                    структуры: Баскиа, скончавшийся в возрасте 27 лет, создал чуть менее 3 тысяч работ, 
+                    в то время как Пикассо является автором десятков тысяч. Фактор дефицита сыграл ведущую 
+                    роль в росте цен на работы Баскиа: поскольку наибольшим спросом пользуется период 
+                    1981–1982 годов, то это еще более ограничивает предложение.
+                  </p>
+                  <p class="main-cont__text">
+                    Значительные работы Баскиа регулярно возвращаются на рынок, и рост их стоимости 
+                    впечатляет. Например, картина «Оранжевая спортивная фигура» (1982) трижды перепродавалась: 
+                    в начале 1990-х — за $66 тыс., в 2012 году — за $6,4 млн, а в 2015 году — за $8,8 млн. 
+                    Установившая рекорд в $110,5 млн картина «Без названия» (1982) была куплена в 1984 году 
+                    за $19 тыс. и через 33 года перепродана в 5800 раз дороже. В самые успешные годы Баскиа 
+                    буквально доминировал на рынке современного искусства: публичные продажи его работ 
+                    составляли 15% мирового аукционного оборота.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-5 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:center;">
+                  <h1 class="main-cont__title" style="font-family: 'Rock Salt', cursive !important;">"I am not a black artist, I am an artist."</h1>
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Жан-Мишель Баския/JMbasquiat.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- creators -->
+      <section id="iq-creators">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <footer class="iq-bg-dark">
+          <div class="footer-top">
+            <div class="container-fluid">
+              <div class="row footer-standard justify-content-center">
+                <div class="col-lg-3">
+                  <div class="footer__copy">
+                    <p class="footer copy-text">
+                        Made by Ionova Margarita Sergeevna
+                    </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+<!--
+  <footer class="iq-bg-dark">
+    <div class="footer-top">
+      <div class="container-fluid">
+        <div class="row footer-standard justify-content-md-center">
+          <div class="col col-lg-5">
+            <div class="widget text-left">
+              <ul class="footer__menu-list p-0">
+                <li class="footer__menu-item"><p href="#" class="footer__menu-title">USEFUL LINKS</p></li>
+                <li class="footer__menu-item"><a href="http://hat-program.eu/contemporary_art" class="footer__menu-link">link</a></li>
+                <li class="footer__menu-item"><a href="https://criterium.ru/zhan-mishel-baskiya-biografiya-i-vklad-v-modu/" class="footer__menu-link">link</a></li>
+                <li class="footer__menu-item"><a href="https://artifex.ru/%D0%B6%D0%B8%D0%B2%D0%BE%D0%BF%D0%B8%D1%81%D1%8C/%D0%B6%D0%B0%D0%BD-%D0%BC%D0%B8%D1%88%D0%B5%D0%BB%D1%8C-%D0%B1%D0%B0%D1%81%D0%BA%D0%B8%D1%8F/" class="footer__menu-link">link</a></li>
+                <li class="footer__menu-item"><a href="http://contemporary-artists.ru/Jean-Michel_Basquiat.html" class="footer__menu-link">link</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mt-4 mt-lg-0">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><p href="#" class="footer__menu-title">CONTACT</p></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">8-951-188-28-98</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">tg: @lelmon</a></li>
+              <li class="footer__menu-item"><p href="#" class="footer__menu-link">пишите, не звоните, выпьем пива</p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-standard justify-content-center">
+          <div class="col-lg-3">
+            <div class="footer__copy">
+              <p class="footer copy-text">
+                  Made by Ionova Margarita Sergeevna
+              </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+-->
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

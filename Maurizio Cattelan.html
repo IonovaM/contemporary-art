@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maurizio Cattelan</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Маурицио Каттелан/italian-artist-maurizio-cattelan-poses-next-to-his-artwork-news-photo-1646651968.jpg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/Maurizio C.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-7 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto pt-5" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Maurizio Cattelan</h1>
+                <p class="main-cont__text">
+                  – современный итальянский художник-самоучка, работающий в жанре инсталляции.
+                </p>
+                <p class="main-cont__text">
+                  Маурицио Каттелан родился 21 сентября 1960 года в г. Падуя, Италия. Его отец был водителем, 
+                  а мать уборщицей. Не имеет какого-либо художественного образования. В разное время работал 
+                  поваром, садовником, донором спермы, охранником и т.д. Карьеру художника начал в 80-х годах 
+                  XX века, когда создал каталог «функциональной мебели» из дерева собственного производства 
+                  и отправил его в ряд галерей г. Форли.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Уроженец Падуи, художник Маурицио Каттелан — enfant terrible современного искусства 
+                  «специализирующийся на демонстрации той бесконечной череды маленьких кризисов, из которых 
+                  и составлена человеческая жизнь», автор многочисленных и всегда ироничных «маленьких 
+                  эстетических революций и социальных бунтов». Очередным из них стал банан, просто банан, 
+                  приклеенный серым широким скотчем к белому гипсокартону стенда галереи Perrotin на ярмарке 
+                  Art Basel Miami Beach-2019 и проданный за $120 тыс. Банан сразу начал создавать вокруг себя 
+                  новые ситуации. Так, к концу ярмарки против него был совершен акт артистического иконоклазма 
+                  — художник Дэвид Датуна подошел к стенду, решительно отклеил скотч, взял тропический плод, 
+                  съел его и не подавился. При этом художник заявил, что Каттелана он очень уважает.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/Comedian 2019.jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Comedian (2019)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Maurizio Cattelan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pb-5">
+            <div class="col-lg-6 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/La Nona Ora.webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:start;">La Nona Ora (1999)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:start;">Maurizio Cattelan</p>
+            </div>
+            <div class="col-lg-6 col-md-7 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto pt-4" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Насмехаться на разумным, добрым и вечным Маурицио Каттелан умеет лучше кого бы то ни было. 
+                  Особенно если дело касается религии. Свою самую известную работу на эту тему — La Nona Ora 
+                  («Девятый час») — художник создал в 1999 году. Она представляет собой гиперреалистическую 
+                  восковую фигуру Папы Римского Иоанна Павла II в натуральную величину, придавленную метеоритом. 
+                  Скульптура располагается на красной ковровой дорожке, усыпанной битым стеклом. Название работы 
+                  отсылает к евангельскому описанию смерти Христа на кресте, произошедшей «около девятого часа». 
+                  Однако в мире победившего абсурда, адептом которого является Каттелан, служитель церкви умирает 
+                  как герой второсортного голливудского боевика с фантастическими элементами. Сегодня работа 
+                  принадлежит миллиардеру и владельцу аукционного дома Christie’s Франсуа Пино.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Скульптура «Он» вызвала даже не полемику, а полноценный скандал. Это портретное 
+                  скульптурное изображение коленопреклоненного Гитлера, которое художник установил 
+                  не где-нибудь, а в бывшем варшавском гетто, на месте гибели тысяч евреев. Сам Каттелан 
+                  так описывал эту работу: «Гитлер — это чистый ужас; это образ страшной боли. Больно даже 
+                  произносить это имя. И в то же время это имя захватило мою память, оно живет в моей голове, 
+                  даже если оно и табуировано… Гитлер повсюду, как бродячий призрак истории, и все же он 
+                  неприличен, непроизносим, завернут в одеяло молчания». Однако не все оценили жест художника. 
+                  Представители Центра Симона Визенталя, одной из крупнейших в мире еврейских правозащитных 
+                  организаций, сочли его «жестокой провокацией, которая оскорбляет память евреев, ставших 
+                  жертвами нацистов». А вот рынку все равно — состоявшийся 8 мая 2016 года в Нью-Йорке аукцион 
+                  Christie’s принес Каттелану новый рекорд. Скульптура «Он» была продана за $17,2 млн при 
+                  эстимейте $10–15 млн. Предыдущий аукционный рекорд художника составлял $7,9 млн.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/Him, 2001.webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Him (2001)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Maurizio Cattelan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pb-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Скульптура под названием L.O.V.E. расположилась в Милане напротив здания Итальянской фондовой биржи, 
+                  которое считается ярким примером тоталитарной архитектуры. Появление на площади Аффари мраморной 
+                  руки с поднятым четырехметровым средним пальцем вызвало много споров — не все поняли, против чего 
+                  направлен этот жест. Одни считают, что Каттелан показывает палец финансистам, которые довели мир 
+                  до экономического кризиса в 2008 году. Другие утверждают, что статуя обращена к позорному фашистскому 
+                  прошлому Италии. Название работы расшифровывается как «Свобода, Ненависть, Месть, Вечность» (Libertà, 
+                  Odio, Vendetta, Eternità). Тем не менее средний палец Каттелана, фаллический символ, установленный 
+                  перед зданием с мощным ритуальным смыслом, — не волевой акт, а знак несогласованности, инвалидности 
+                  общества. При этом другие пальцы мраморной руки не загнуты, а спилены.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/L.O.V.E. 2010.webp" alt="" class="img-fluid pb-4">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">L.O.V.E. (2010)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Maurizio Cattelan</p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/America 2016.jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">America (2016)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Unbounded', cursive; text-align:end;">Maurizio Cattelan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pb-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Последний (до появления банана) нашумевший проект Маурицио Каттелана назывался «Америка» 
+                  и представлял собой изготовленный из золота 750-й пробы унитаз, который был установлен 
+                  в туалете на четвертом этаже Музея Соломона Р. Гуггенхайма. Золотым унитазом можно было 
+                  пользоваться по прямому назначению, но каждому посетителю отводилось не более пяти минут, 
+                  а желающих было много, так что в туалет всегда стояла очередь. Рядом бдел охранник, следящий 
+                  за временем. Каждые двадцать минут специальный уборщик чистил унитаз средствами, которые 
+                  не вредят золоту. В сентябре 2019 года унитаз выставлялся в Бленхеймском дворце в Великобритании, 
+                  откуда был украден неизвестными. Через месяц полиция задержала по подозрение в краже женщину 
+                  и двух мужчин средних лет, однако как им удалось демонтировать и вынести из здания изделие 
+                  весом в 100 кг — не уточняется.
+                </p>
+                <p class="main-cont__text">
+                  Сам унитаз, оценивающийся в $2,6 млн, до сих пор не найден, однако он уже поспособствовал 
+                  новому витку карьеры Каттелана. В ноябре 2019 года художник, которому сейчас 59 лет, 
+                  стал лицом рекламы компании Arte Generali, занимающейся страхованием предметов искусства. 
+                  На рекламном плакате, созданном итальянским фотографом Оливьеро Тоскани, изображен голый 
+                  улыбающийся Каттелан, прикрытый лишь стратегически размещенным золотым унитазом, который 
+                  он держит под мышкой.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Маурицио Каттелан/Courtesy Arte Generali.webp" alt="" class="img-fluid pb-4">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pb-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Каттелана ненавидят экоактивисты всех стран. Ведь в своем творчестве художник использует 
+                  чучела животных — чаще всего лошадей, которых он подвешивает или демонстрирует как трофеи, 
+                  показывая не головы, а части туш. Также в искусстве художника фигурируют ослики (часто до 
+                  невозможности навьюченные) и голуби. На двух Венецианских биеннале, в 1997 и в 2011 году, 
+                  Каттелан заполонил стропила и воздуховодные трубы Центрального павильона этими главными 
+                  венецианскими птицами, загаживающими все вокруг, назвав первую инсталляцию «Туристы», а 
+                  вторую — «Другие». Обнаружить их присутствие в экспозиции можно было по поддельным экскрементам 
+                  на полу. По словам Франческо Бонами, Каттелан «использует стратегию Уолта Диснея, то есть 
+                  наделяет животных эмоциями и недостатками людей, но в чуть более мрачной, депрессивной 
+                  тональности». Эта оценка как нельзя лучше подходит к самой популярной работе художника — 
+                  «Бидибидобидибу» (1996), изображающей покончившую с собой в белку в интерьере 
+                  обезличенной бедной кухни.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container-fluid pb-5">
+          <div class="grid" id="grid">
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Untitled – I.N.R.I., 2009.jpeg" data-caption='I.N.R.I. (2009)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Untitled – I.N.R.I., 2009.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Untitled 2001.jpeg" data-caption='Untitled (2001)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Untitled 2001.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Kaputt.jpeg" data-caption='Kaputt'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Kaputt.jpeg" alt="">
+              </a>
+            </div>  
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Bidibibodibiboo 1996.jpeg" data-caption='Bidibibodibiboo (1996)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Bidibibodibiboo 1996.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/THE BALLAD OF TROTSKY (1996).jpg" data-caption='The ballad of Trotsky (1996)'>
+                <img class="img-responsive" src="images/Маурицио Каттеланн/Bidibibodibiboo 1996.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Love Saves Life, 1995.jpg" data-caption='Love Saves Life (1995)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Love Saves Life, 1995.jpg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/ All, 2007..jpg" data-caption='All (2007)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/ All, 2007..jpg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Frank and Jamie (2002).webp" data-caption='Frank and Jamie (2002)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Frank and Jamie (2002).webp" alt="">
+              </a>
+            </div>  
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Ave Maria (2007).jpeg" data-caption='Ave Maria (2007)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Ave Maria (2007).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/A Perfect Day1999 .webp" data-caption='A Perfect Day (1999)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/A Perfect Day1999 .webp" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Маурицио Каттелан/Senza titolo (Drummer), 2003.webp" data-caption='Senza titolo (2003)'>
+                <img class="img-responsive" src="images/Маурицио Каттелан/Senza titolo (Drummer), 2003.webp" alt="">
+              </a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+  
+  <script src="main.js"></script>
+</body>
+</html

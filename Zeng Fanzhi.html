@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zeng Fanzhi</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Цзэн Фаньчжи/Zeng Fanzhi3.jpeg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-5 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Zeng Fanzhi.jpeg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto pt-5" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Zeng Fanzhi</h1>
+                <p class="main-cont__text">
+                  - один из самых известных и финансово успешных азиатских художников.
+                </p>
+                <p class="main-cont__text">
+                  Цзэн Фаньчжи родился в 1964 году в городе Ухань, Китай, это один из самых динамично развивающихся 
+                  китайских художников. С самых ранних этапов карьеры его картины были отмечены своей эмоциональной 
+                  непосредственностью, психологически интуитивно понятным смыслом и тщательно выверенной экспрессивной 
+                  техникой. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Van Gogh II (2017).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Van Gogh II (2017)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Untitled (detail) (2018).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Untitled (detail) (2018)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Van Gogh III (2017).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Van Gogh III (2017)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  В течение всего времени, экспрессивные техники художника идут в разрез похожим традиционным. 
+                  В отличие от большинства своих соотечественников Цзэн Фаньчжи не пишет работы на тему политики, 
+                  его интересует бытовая жизнь, каждодневные переживания и мысли. Серии его работ, написанные на 
+                  темы госпиталя и людей в масках – это очень сложные психологические и экспрессивные работы.
+                </p>
+                <p class="main-cont__text">
+                  Взросление Цзен Фаньчжи пришлось на Китайскую культурную революцию, он поступил в Хубейскую 
+                  академию художеств. На протяжении учебы Цзен находился под влиянием экспрессионизма.  
+                </p>
+                <p class="main-cont__text">
+                  С самого начала, Цзен находился под сильным воздействием своих физических и эмоциональных 
+                  обстоятельств. "Hospital Series" – первая зрелая серия Цзен Фаньчжи, вдохновленная обстановкой 
+                  в местной больнице рядом с его домом. Серия является примером его корреляционного подхода между 
+                  живописью и психологией. Комната ожидания несет характер пошлости и травмы: приглушенные тона 
+                  повторяют черствость общественного пространства, толпы на заднем плане показаны смутными и 
+                  разобщенными, в то время как ржавые подтеки на холсте имитируют кровь, печаль и отвращение. 
+                  На диване, на центральном плане – обезумевший пациент и надменный врач, отделенный от человеческого 
+                  страдания, в белом халате ужаса и бюрократии. Их головы и руки усиливают болезненный и нелепый 
+                  масштаб в гротескной пародии на мысли и действия. Картины этой серии часто несли намек на 
+                  садомазохистские отношения в мире с его бледными цветами и цветами крови плоти пациентов. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/ Zeng Fanzhi, Hospital Triptych no. 1, (1991).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi, Hospital Triptych no. 1, (1991)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Meat no. 2, (1992).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Meat no. 2, (1992)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Meat No. 3- Nativity (1992).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Meat No. 3 - Nativity (1992)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  После 1994 года работы Цзен смещаются в строну его «Mask Series». Его стиль претерпевает резкий 
+                  сдвиг, это считается вторым периодом его творчества. Взамен гнева и жестокого характера "Hospital 
+                  Series", эта серия более апатична. Все фигуры, изображенные на картинах носят белые маски, тесно 
+                  слитые с чертами лица. Однако маски обладают пугающей странной силой. Его фигуры выглядят тревожными 
+                  или напуганными, как будто они являются жертвами собственных ролей. Через мотив маски, Цзен Фаньчжи 
+                  выражает приостановленную реальность.  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Mask Series (1998).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Nude and Forms (2014)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Mask Series (1998)2.jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mask Series (1998)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Mask Series no. 3 (1994).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mask Series no. 3 (1994)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  После 1997 года искусство Цзен Фаньчжи снова несколько меняется. Он использует более мягкие цвета, 
+                  что является результатом большего их смешения друг с другом, на картины теперь можно смотреть с 
+                  большим спокойствием. Вместо гнева или контроля эмоций, фигуры более расслаблены, их руки иногда 
+                  даже могут быть погружены в карманы. Должно быть это показывает, что состояние художника в это 
+                  время также становится более расслабленным, и он достигает понимания жизни. Но все же остаются 
+                  некоторые своего рода беспокойства, можно отметить тот факт, что у героев картин головы больше, 
+                  чем должны быть в норме. Вместо его экспрессионистских начинаний, его работы теперь состоят в 
+                  основном из символизма. 
+                </p>
+                <p class="main-cont__text">
+                  С 1993 года Цзен Фаньчжи живет и работает в Пекине, его работы выставляются в галереях по всему 
+                  миру. Цзэн Фаньчжи один из самых известных и дорогих художников современного арт-рынка. В 2008 
+                  году на аукционе Christie’s Hong Kong его работа “Mask Series 1996 No 6” была продана за 67 млн 
+                  гонконгских долларов (9.7 млн долларов США).
+                </p>
+                <p class="main-cont__text">
+                  5 октября 2013 года в Гонконге на Sotheby's Hong Kong 40th Anniversary Evening Sale «Тайная вечеря» 
+                  Цзэн Фаньчжи была продана за $23.300.000. Это рекордная сумма для современного азиатского искусства. 
+                  Стартовая цена картины составляла 9 миллионов долларов. За 15 минут, что длились торги, ее стоимость 
+                  выросла в два с половиной раза. Коллекционер, пожелавший остаться неизвестным, сражался за лот по 
+                  телефону. Произведение размером 4 на 2,2 метра было написано в 2001 году и является одной из самых 
+                  масштабных работ художника.
+                  Герои картины повторяют позы леонардовских апостолов и Иисуса, только они изображены в виде юных 
+                  пионеров в красных галстуках. Иуда, в отличие от других героев, показан в одежде западного типа: 
+                  рубашке и желтом деловом галстуке. Это символизирует движение Китая к капитализму. Художник отражает 
+                  в картине значительную трансформацию китайского общества, начатую экономическими реформами 1990 годов. 
+                  Так поясняет произведение Эвелин Лин (Evelyn Lin), руководитель отделения современного азиатского 
+                  искусства Sotheby's.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/The Last Supper (2001).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">The Last Supper (2001)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Цзэн Фаньчжи/Mask Series 1996 No 6.jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mask Series 1996 No6 (1996)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Zeng Fanzhi</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html

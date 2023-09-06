@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christopher Wool</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Кристофер Вул/Christopher Wool.webp">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-5 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Christopher Wool3.avif" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto pt-5" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif;">Christopher Wool</h1>
+                <p class="main-cont__text">
+                  — современный американский художник и скульптор.
+                </p>
+                <p class="main-cont__text">
+                  Живёт и работает вместе со своей женой, художницей Шарлин фон Хейл, в Нью-Йорке, а также в Марфе, 
+                  штат Техас. Искусство Кристофера Вула включает направления, связанные с поп-артом, абстракцией 
+                  и с концепциями пост-концептуального характера. Формальные эксперименты художника делают его, 
+                  с одной стороны, коммерчески успешным автором, произведения которого приобретают крупнейшие 
+                  галереи мира, а с другой стороны, историки искусства и критики нередко обвиняют К. Вула в 
+                  банальности или поверхностности его творений.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Авторская фишка – черно-белые «картины из слов». Они представляют собой большие полотна с фразами 
+                  в стиле граффити-лозунгов, чаще всего выполненные в технике шелкографии. К.Вул предлагает узнаваемые 
+                  цитаты из фильмов и телешоу, из популярных книг и периодических изданий. Поздние работы художника, 
+                  основанные на исследовании абстрактной живописи, часто содержат несколько живописных уровней и 
+                  кадрирование изображения. Смысл произведений – в поиске ответов на вопрос, что такое современная 
+                  живопись, как она должна создаваться.
+                </p>
+                <p class="main-cont__text">
+                  Кроме музеев в городах Америки (Нью-Йорк, Чикаго, Бостон, Вашингтон, Лос-Анжелес и др.), 
+                  произведения Кристофера Вула экспонируются в Лондоне (Tate Modern), Париже (Centre Pompidou), 
+                  Вене, Цюрихе, Роттердаме, Монреале, Кёльне и других крупнейших художественных собраниях мира. 
+                  Картины художника высоко ценятся на мировом арт-рынке.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (RIOT) (1990).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (RIOT) (1990)</h5>
+              <p class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (1990).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif;; text-align:end;">Untitled (1990)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (1990)2.webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (1990)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h6 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif;">Главные темы творчества Кристофера Вула</h6>
+                <p class="main-cont__text">
+                  Кристофер Вул известен своими живописными работами большого формата с изображениями черных букв 
+                  на белом фоне. Согласно его рассказу, он начал создавать такие произведения в конце 1980-х годов, 
+                  увидев граффити на белом кузове нового грузовика. По концепции автора — это не просто изображение 
+                  фраз:- исходные слова часто вписаны в систему-решетку, из них могут быть удалены некоторые буквы, 
+                  а само слово разбито на фрагменты без соблюдения правил переноса. Следовательно, не только изменение 
+                  значения слова интригует художника, но и визуальный аспект композиции. Для своих картин он использует 
+                  тексты песен, фразы из популярных фильмов, книг.
+                </p>
+                <p class="main-cont__text mb-0">
+                  Другая серия ранних работ – так называемые «обои». Художник наносил геометрические узоры и цветочные 
+                  орнаменты валиком через трафарет. Такая форма выбрана художником, чтобы подвергнуть сомнению 
+                  классические методы живописи и экспрессионистской абстракции в частности. Зритель рассматривает их 
+                  как абстрактную форму, ни о чем не говорящую, эстетические устремления и так называемый «божественный 
+                  смысл» искусства равны нулю.
+                </p>
+                <p class="main-cont__text mb-0">
+                  В последние годы художник вернулся к абстрактному экспрессионизму, против которого выступал. Он 
+                  создает  монохромные полотна, которые выглядят как пересекающиеся слои наносимых и частично 
+                  удаляемых с помощью мягкой ткани плоскостей и линий. Произведения создаются в разных техниках, 
+                  включая шелкографию и разбрызгивание краски. С начала нового тысячелетия Кристофер Вул активно 
+                  использует возможности компьютера для создания частичных повторов своих произведений.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (1995).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (1995)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Feet Don't Fail Me Now (1995).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Feet Don't Fail Me Now (1995)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Эти работы чаще носят экспрессионистский характер, хотя в качестве объектов изображения выступают 
+                  улица или город, студия или окружающие художника предметы повседневной жизни.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (2018).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (2018)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (2016).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (2016)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/My House II (2000).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">My House II (2000)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled from Psychopts (2008).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled from Psychopts (2008)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (1993).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (1993)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Кристофер Вул/Untitled (1984).webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Untitled (1984)</h5>
+              <p class="main-cont__title pb-4" style="font-family: 'Rubik Mono One', sans-serif; text-align:end;">Christopher Wool</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- creators -->
+      <section id="iq-creators">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

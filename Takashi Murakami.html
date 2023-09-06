@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Takashi Murakami</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Такаси Мураками/Takashi Murakami.jpeg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Такаси Мураками/Takashi Murakami4.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto pt-5" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Takashi Murakami</h1>
+                <p class="main-cont__text">
+                  - современный японский художник, работающий в разных направлениях искусства.
+                </p>
+                <p class="main-cont__text">
+                  Такаси Мураками родился 1 февраля 1962 года в г. Токио, Япония. Его отец был водителем 
+                  такси, а мать - домохозяйкой. В детстве увлекался мангой. Поступил в Токийский университет 
+                  искусств (англ. Tokyo University of the Arts), где хотел изучать анимацию, но в результате 
+                  стал специализироваться на жанре Нихонга («традиционный» стиль японской живописи, который 
+                  включает в себя традиционные японские художественные методы и образы). В качестве специалиста 
+                  по стилю Нихонга Мураками получил степень Ph.D.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Мураками был неудовлетворен состоянием современного искусства в Японии, полагая, что речь идет 
+                  о "глубоком следовании западным трендам". Таким образом, в большей части его ранних работ 
+                  основной темой можно считать социальную критику, а типичным приемом - сатиру (например, 
+                  перформанс Osaka Mixer Project, 1992). Художник также предложил свой собственный символ-значок, 
+                  который изначально являлся автопортретом Мураками, вариантом его алтер-эго, и стал известен под 
+                  названием Mr. DOB. Работа представляла собой анимационную фигуру, сформированную из букв D, O и 
+                  B (сокращение фразы “Dobojite? dobojite?” - "Зачем? Зачем?", которая является цитатой японского 
+                  комика Тору Юри и использована Мураками в качестве универсального для всех культур призыва к 
+                  размышлению). Позднее Mr. DOB перерос в отдельного персонажа и соответствующий бренд. Ранние 
+                  работы Мураками привлекли внимание к личности художника, но японская публика принимала их в то 
+                  время неоднозначно.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/Такаси Мураками/Mr. Dob (A).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mr. Dob (A) (2016)</h5>
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Takashi Murakami</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row pb-5">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Такаси Мураками является художником, который много работает над продвижением своего творчества 
+                  на арт-рынке и открыто заявляет об этом. Художник много критиковал арт-рынок Японии и в связи 
+                  с этим он разработал стратегию продвижения своего творчества, основной идеей которой был выход 
+                  на западный рынок, а затем обратный "импорт" своих работ в Японию. Т.о. контент должен был 
+                  одновременно и ассоциироваться с Японией, и представлять из себя нечто "живое", интересное зрителю. 
+                  Ответом на подобный запрос для Мураками стала культура отаку. Словом "отаку" в самой Японии 
+                  традиционно называли человека излишни увлеченного чем-либо, фаната (слово имело негативный характер). 
+                  Впрочем, за пределами Японии (отчасти благодаря самому Мураками) термин стал обозначать ту часть 
+                  молодежной японской культуры, которая в первую очередь ассоциировалась с аниме и мангой. Существуют 
+                  в большей степени европейские термины «аниманга» (аниме и манга вместе) и «стиль Акиба» (по названию 
+                  района в Токио), которые весьма грубо (и одновременно недостаточно полно) обобщают множество различных 
+                  направлений, которые ассоциируются с яркими японскими образами. В искусстве данные работы иногда 
+                  сравнивают с американским поп-артом. Сам Такаси Мураками считал, что стиль Отаку дискиминируется в 
+                  Японии как "низкий", в то время как он представляет из себя пример действительно живой культуры. 
+                  Художнику принадлежит термин «Po-Ku Revolution» (po-ku - соединение поп-арта и отаку).
+                </p>
+                <p class="main-cont__text">
+                  Помимо культуры Отаку Мураками выделяет такое свойство японской живописи как суперплоскость (Superflat). 
+                  Фактически, Мураками сформулировал определение Суперплоскости как жанра, став родоночальником данного 
+                  направления. Художнику принадлежит цитата: «У нас, в японской культуре, нет объемных, трехмерных 
+                  изображений. Нашему рисунку свойственны исключительно 2D - формы, так называемая суперплоскость. 
+                  В этом и заключается особенный шарм японской живописи». Разумеется, в даннном контексте Суперплоскость 
+                  может рассматриваться как часть (свойство) стиля Отаку. В 2000 году Мураками выступил куратором 
+                  выставки Superflat, на которой по его замыслу зрителю было предложено посмотреть на современное 
+                  визуальное японское искусство сквозь призму традиционной культуры Японии. Позднее, на базе данного 
+                  проекта состоялись выставки японского искусства в Париже (Coloriage Fondation Cartier pour l’аrt 
+                  Contemporain, 2002) и Нью-Йорке (Little Boy: The Art of Jараn’s Exploding Subcultures, 2005).
+                </p>
+                <p class="main-cont__text">
+                  Улыбающиеся маргаритки и глазастые черепа появляются в творчестве Мураками постоянно. Больше всего 
+                  они напоминают компьютерную графику, порожденную навязчивой идеей изобразить мир предельно милым и 
+                  инфантильным. Черепа в истории западного искусства функционировали как символ бренности бытия, 
+                  напоминание о memento mori. Эта интерпретация совпадает с буддийской концепцией, говорящей, что 
+                  «всё временно». Однако Мураками идет дальше и утверждает, что «все в конце концов умрут, поэтому 
+                  не стоит беспокоиться». Этот тезис иронично дублирует риторику общества супермаркета. В индустрию 
+                  именно такого типа Мураками и превратил свою империю, основанную на эксплуатации жизнерадостных 
+                  образов и агрессивном потреблении. Он посмеивается над поп-культурой, будучи плотью от ее плоти. 
+                  Творчество Мураками — это пример, как культура изживания военных травм мутировала и обрастала новыми 
+                  образами, прямо как «Цветок-матанго».
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="container-fluid pb-5">
+          <div class="grid" id="grid">
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Flower ball.jpeg" data-caption='Flower ball'>
+                <img class="img-responsive" src="images/Такаси Мураками/Flower ball.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Flower Matango 2009.jpeg" data-caption='Flower Matango (2009)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Flower Matango 2009.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/KAIKAI 2005.avif" data-caption='Kakai (2005)'>
+                <img class="img-responsive" src="images/Такаси Мураками/KAIKAI 2005.avif" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/KIKI 2005.jpg" data-caption='Kiki (2005)'>
+                <img class="img-responsive" src="images/Такаси Мураками/KIKI 2005.jpg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/KANYE BEAR 2009.avif" data-caption='KANYE BEAR (2009)'>
+                <img class="img-responsive" src="images/Такаси Мураками/KANYE BEAR 2009.avif" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/MAX & SHIMON 2004.avif" data-caption='MAX & SHIMON (2004)'>
+                <img class="img-responsive" src="images/Такаси Мураками/MAX & SHIMON 2004.avif" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Me and Double-Dob (2009).jpeg" data-caption='Me and Double-Dob (2009)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Me and Double-Dob (2009).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Mr. DoB Dobtopus, 2016.jpeg" data-caption='Mr. DoB Dobtopus (2016)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Mr. DoB Dobtopus, 2016.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Superflat Doraemon.jpeg" data-caption='Superflat Doraemon'>
+                <img class="img-responsive" src="images/Такаси Мураками/Superflat Doraemon.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Tan Tan Bo, 2001.jpeg" data-caption='Tan Tan Bo (2001)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Tan Tan Bo, 2001.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/727 1996.jpeg" data-caption='727 (1996)'>
+                <img class="img-responsive" src="images/Такаси Мураками/727 1996.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Antology (1998).jpeg" data-caption='Antology (1998)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Antology (1998).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Black Flowers and Skulls (2020).jpeg" data-caption='Black Flowers and Skulls (2020)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Black Flowers and Skulls (2020).jpeg" alt="">
+              </a>
+            </div>  
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ DOB Jump (1999).jpeg" data-caption='DOB Jump (1999)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ DOB Jump (1999).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Dokuro Black (2001).jpeg" data-caption='Dokuro Black (2001)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Dokuro Black (2001).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Enso Blue (2016).jpeg" data-caption='Enso Blue (2016)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Enso Blue (2016).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Jellyfish Eyes (2001).jpeg" data-caption='Jellyfish Eyes (2001)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Jellyfish Eyes (2001).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Kiki With Moss (2004).jpeg" data-caption='Kiki With Moss (2004)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Kiki With Moss (2004).jpeg" alt="">
+              </a>
+            </div>  
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Making a U-Turn, the Lost Child Finds his Way Home (2004) .jpeg" data-caption='Making a U-Turn, the Lost Child Finds his Way Home (2004)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Making a U-Turn, the Lost Child Finds his Way Home (2004) .jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Melting DOB D (2001).jpeg" data-caption='Melting DOB D (2001)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Melting DOB D (2001).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Poke! (1999).jpeg" data-caption='Poke! (1999)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Poke! (1999).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Posi Mushroom (2007).jpeg" data-caption='Posi Mushroom (2007)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Posi Mushroom (2007).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ Red Demon and Blue Demon With 48 Arhats (2013).jpeg" data-caption='Red Demon and Blue Demon With 48 Arhats (2013)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ Red Demon and Blue Demon With 48 Arhats (2013).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/A Panda Family Against the Blue Sky (2014).jpeg" data-caption='A Panda Family Against the Blue Sky (2014)'>
+                <img class="img-responsive" src="images/Такаси Мураками/A Panda Family Against the Blue Sky (2014).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/A Summer Vapor Trail (2018).webp" data-caption='A Summer Vapor Trail (2018)'>
+                <img class="img-responsive" src="images/Такаси Мураками/A Summer Vapor Trail (2018).webp" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/And Then Light Blue (1999).jpeg" data-caption='And Then Light Blue (1999)'>
+                <img class="img-responsive" src="images/Такаси Мураками/And Then Light Blue (1999).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/And Then Red (1999).jpeg" data-caption='And Then Red (1999)'>
+                <img class="img-responsive" src="images/Такаси Мураками/And Then Red (1999).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/And Then, And Then And Then And Then And Then (Red) (1996).jpeg" data-caption='And Then, And Then And Then And Then And Then (Red) (1996)'>
+                <img class="img-responsive" src="images/Такаси Мураками/And Then, And Then And Then And Then And Then (Red) (1996).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Doraemon- Hip Hip Hurrah!, 2018.jpeg" data-caption='Doraemon - Hip Hip Hurrah! (2018)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Doraemon- Hip Hip Hurrah!, 2018.jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Eye Love Superflat (2003).jpeg" data-caption='Eye Love Superflat (2003)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Eye Love Superflat (2003).jpeg" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Killer Pink (2004).webp" data-caption='Killer Pink (2004)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Killer Pink (2004).webp" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/Miss ko2 1997.webp" data-caption='Miss ko2 (1997)'>
+                <img class="img-responsive" src="images/Такаси Мураками/Miss ko2 1997.webp" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/TAMON-KUN 2003.avif" data-caption='TAMON-KUN (2003)'>
+                <img class="img-responsive" src="images/Такаси Мураками/TAMON-KUN 2003.avif" alt="">
+              </a>
+            </div>
+            <div class="grid-item">
+              <a data-fancybox="gallery" href="images/Такаси Мураками/ZOUCHO-KUN 2003.avif" data-caption='ZOUCHO-KUN (2003)'>
+                <img class="img-responsive" src="images/Такаси Мураками/ZOUCHO-KUN 2003.avif" alt="">
+              </a>
+            </div>
+          </div>          
+        </div>
+      </section>
+      
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+    </main>
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

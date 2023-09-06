@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAWS</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/kaws/KAWS.jpg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row py-5">
+            <div class="col-lg-6 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/Kaws-artist.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">KAWS</h1>
+                <p class="main-cont__text">
+                  – нью-йоркский художник и дизайнер лимитированной серии игрушек и одежды.
+                </p>
+                <p class="main-cont__text">
+                  KAWS, урожденный Брайан Доннелли, родился в 1974 году в Нью-Джерси. Получил образование 
+                  иллюстратора в Школе визуальных искусств (SVA) в Нью-Йорке. После выпуска в 1996 году работал 
+                  в Disney в качестве аниматора-фрилансера, занимаясь проработкой задних планов мультфильма 101 
+                  далматинец и мультсериала Doug.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Параллельно с работой в Disney KAWS начал развиваться как граффити-райтер и сконцентрировался 
+                  на творчестве в условиях города. Используя городские объекты – телефонные будки, общественный 
+                  транспорт, рекламные щиты – в качестве холста, он заменял лица моделей на символические черепа 
+                  с характерными крестиками вместо глаз. К слову, это даже не крестики, а буква «Х», которую KAWS 
+                  особо выделяет среди всех прочих.
+                </p>
+                <p class="main-cont__text">
+                  В 1999-м году началось сотрудничество KAWS с японским брендом одежды Bounty Hunter.
+                  Bounty Hunter – прекрасный пример того, как японские бренды подходят к американской культуре, 
+                  фильтруют и перерабатывают ее со своей уникальной точки зрения, выдавая в итоге действительно 
+                  оригинальный продукт.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/kaws-stands.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  В 1995-м компания Bounty Hunter началась как компания Harajuku по 
+                  производству игрушек. Только достигнув успеха, основатель Хикару Иванага расширил ассортимент 
+                  толстовками, футболками и другими вещами.
+                </p>
+                <p class="main-cont__text">
+                  Концепт при этом остался неизменным: что же происходит, когда дети подаются в панк? Здесь – 
+                  синтез нескольких популярных американских культур: панк, рокабилли, байкерское движение. Стильная 
+                  и модная одежда Bounty Hunter мгновенно обросла поклонниками.  
+                </p>
+                <p class="main-cont__text">
+                  Именно для Bounty Hunter KAWS придумал и выпустил свою первую виниловую фигурку. Вышедшая 
+                  ограниченным тиражом, она стала хитом сообщества любителей оригинальных арт-игрушек.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/KAWS x Bounty Hunter Companion (1999).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Первые фигурги KAWS x Bounty Hunter Companion (1999)</h5>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/Chum (2002).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Chum (2002)</h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/KAWS SHARE & KAWS TAKE .webp" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">KAWS SHARE & KAWS TAKE</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  Помимо Bounty Hunter KAWS успел также поработать с такими японскими компаниями, как Santastic, 
+                  A Bathing Ape, Medicom. В 2006-м в токийском районе Аояма открылся OriginalFake, совместный с 
+                  Medicom магазин игрушек и одежды. Спустя практически семь лет феноменального успеха на сцене 
+                  уличной моды, в конце мая 2013-го года KAWS и Medicom закрыли совместный бренд.
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">MTV and KANYE WEST</h4>
+                <p class="main-cont__text">
+                  В 2013-м компания Брайана занялась редизайном символики MTV Video Music Awards, разработала некоторые 
+                  обложки The New Yorker, Clark Magazine и I-D, а также обложки альбомов таких исполнителей, как Towa 
+                  Tei, Cherie, Clipse и Kanye West.
+                </p>
+                <p class="main-cont__text">
+                  В последние нескольких десятилетий MTV перестал быть просто телеканалом. Он стал настоящим культом, 
+                  с присущими ему символами и атрибутами. Один из них — статуэтка VMA Moonman в виде миниатюрного 
+                  космонавта. В 2013 году, не желая перечеркивать историю, стоящую за плечами этого малыша, KAWS 
+                  осторожно модифицировал дизайн статуэтки, придав ей сходство с одним из своих самых знаменитых 
+                  фирменных персонажей.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/kaws-kanye.png" alt="" class="img-fluid pb-3">
+              <p class="main-cont__title pb-3" style="font-family: 'Unbounded', cursive; text-align:end;">Обложка альбома Канье Уэста «808s & Heartbreaks», созданная KAWS</p>
+              <img src="images/kaws/kaws-mtv.jpeg" alt="" class="img-fluid">
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Статуэтка VMA Moonman</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 py-1 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/kaws-girl.jpeg" alt="" class="img-fluid">
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">«Girl»</p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <p class="main-cont__text">
+                  KAWS создал дизайн лимитированных бутылок для Dos Equis и Hennesy, работал над совместными проектами 
+                  с Burton, Nike, Vans, Supreme и DC Shoes, разрабатывал дизайны для Gallery 1950 и Kiehl’s Cosmetics.
+                </p>
+                <p class="main-cont__text">
+                  В 2014-м KAWS со своим давним другом Фарреллом Уильямсом работал над бутылкой и дизайном парфюма 
+                  «Girl», созданного Уильямсом вместе с Comme des Garcons, чтобы отпраздновать его одноименный сольный альбом.
+                  В 2016-м Брайан также поработал с магазином одежды Uniqlo, и выпустил свою линию футболок и аксессуаров, 
+                  практически мгновенно распроданных по низким ценам. За счет высокого спроса коллекция возобновлялась 
+                  несколько раз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">NIKE И JORDAN</h4>
+                <p class="main-cont__text">
+                  В 2007 году Nike, заинтересовавшись молодым, но уже прославленным художником, пригласили Брайана 
+                  для работы над совместным релизом. Основой послужила модель Nike Air Max 90 и Nike Air Force 1, 
+                  преобразившаяся в руках художника и ставшая похожей на одного из его персонажей с глазами-крестиками. 
+                  Спустя почти 10 лет тандем повторил успех, выпустив совместное издание Air Jordan VI, которое на 
+                  данный момент оценивается на вторичном рынке в сумму от 1400 до 2000 долларов.
+                </p>
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">UNIQLO</h4>
+                <p class="main-cont__text">
+                  Несмотря на весьма бюджетную ценовую политику и массовое позиционирование, бренд Uniqlo успел 
+                  прославиться несколькими громкими коллаборациями, в числе которых – совместная коллекция с KAWS 
+                  по мотивам мультфильма “Peanuts”. Художник не ограничился простыми футболками с принтами, 
+                  представив также свитшоты, домашние тапочки и мягкие игрушки, в которых явно прослеживается 
+                  фирменный элемент KAWS’а – знаменитые иксы на месте глаз.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/Nike Air Force 1 x KAWS (2007).jpeg" alt="" class="img-fluid">
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Nike Air Force 1 x KAWS, 2007 год</p>
+              <img src="images/kaws/kaws-jordans.png" alt="" class="img-fluid">
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Air Jordan VI в исполнении KAWS</p>
+              <img src="images/kaws/kaws-uniqlo.png" alt="" class="img-fluid">
+              <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">UNIQLO & KAWS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <div class="mt-auto mb-auto" style="text-align:justify;">
+                <h4 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Искусство Kaws</h4>
+                <p class="main-cont__text">
+                  В акриловых рисунках и скульптурах KAWS много повторяющихся мотивов, которые и сделали его работы 
+                  узнаваемыми с первого взгляда. Он умело использует отдельные фрагменты, понятные каждому, независимо 
+                  от региона, языка или культурного бэкграунда.
+                </p>
+                <p class="main-cont__text">
+                  Яркий тому пример – одна из ранних серий 2000-х годов, The Kimpsons, напрямую связанная с Симпсонами, 
+                  как с феноменом, давно и основательно влившимся в жизнь людей по всему миру. По тому же принципу KAWS 
+                  использовал и другие популярные образы: Микки Мауса, Спанч Боба, смурфиков. Естественно, это молниеносно 
+                  привлекло к нему внимание.
+                </p>
+                <p class="main-cont__text">
+                  О коммерческом успехе говорит уже тот факт, что скульптура «Wonderful World» была продана за 400 тысяч долларов.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cont">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/Seated Companion.jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Работа Seated Companion, которую продали на аукционе в Гонконге за 321,000 $</h5>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/KIMPSONS (2004).jpg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">UNTITLED (KIMPSONS #1) (2004)</h5>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+              <img src="images/kaws/ Kawsbob - Yellow (2011).jpeg" alt="" class="img-fluid">
+              <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Kawsbob - Yellow (2011)</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэмьен Херст/Дэмьен Херст pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Damien Hirst.html"> Дэмьен Херст </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html

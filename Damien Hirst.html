@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Damien Hirst</title>
+  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="catalog/view/javascript/jquery/jquery-ui.js" type="text/javascript"></script> 
+  <link href="catalog/view/javascript/jquery/css/jquery-ui.css" rel="stylesheet" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Happy+Monkey&family=Major+Mono+Display&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400&family=Rock+Salt&family=Rubik+Mono+One&family=Russo+One&family=Stalinist+One&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=Underdog&family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- i will provide this in description  -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap4.min.css" />
+  <!-- fancyBox CSS -->
+  <link href="css/jquery.fancybox.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="main-header">
+      <div class="main-header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12">
+              <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logoCA.svg" class="img-fluid logo" alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 75px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Криэйторы</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Basquiat.html">Жан-Мишель Баския</a>
+                        <a class="dropdown-item" href="Jenny Saville.html">Дженни Савиль</a>
+                        <a class="dropdown-item" href="Jeff Koons.html">Джефф Кунс</a>
+                        <a class="dropdown-item" href="Damien Hirst.html">Дэмьен Херст</a>
+                        <a class="dropdown-item" href="Amoako Boafo.html">Амоако Боафо</a>
+                        <a class="dropdown-item" href="Yayoi Kusama.html">Яеи Кусама</a>
+                        <a class="dropdown-item" href="Maurizio Cattelan.html">Маурицио Каттелан</a>
+                        <a class="dropdown-item" href="Eric Bulatov.html">Эрик Булатов</a>
+                        <a class="dropdown-item" href="Takashi Murakami.html">Такаси Мураками </a>
+                        <a class="dropdown-item" href="David Hockney.html">Дэвид Хокни </a>
+                        <a class="dropdown-item" href="Georg Baselitz.html">Георг Базелиц</a>
+                        <a class="dropdown-item" href="Andy Warhol.html">Энди Уорхол</a>
+                        <a class="dropdown-item" href="Kerry James Marshall.html">Керри Джеймс Маршалл</a>
+                        <a class="dropdown-item" href="Christopher Wool.html">Кристофер Вул</a>
+                        <a class="dropdown-item" href="Zeng Fanzhi.html">Цзэн Фаньчжи</a>
+                        <a class="dropdown-item" href="KAWS.html">KAWS</a>
+                        <a class="dropdown-item" href="Glenn Brown.html">Гленн Браун</a>
+                        <a class="dropdown-item" href="George Condo.html">Джордж Кондо</a>
+                        <a class="dropdown-item" href="Gerhard Richter.html">Герхард Рихтер</a>
+                        <a class="dropdown-item" href="Yoshitomo Nara.html">Ёситомо Нара</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" 
+                      id="navbarDropdownMenuLink">Направления</a>
+                      <div class="dropdown-menu navbar-nav-scroll" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="Conceptualism.html">Концептуализм</a>
+                        <a class="dropdown-item" href="Abstract expressionism.html">Абстрактный экспрессионизм</a>
+                        <a class="dropdown-item" href="Pop Art.html">Поп-арт</a>
+                        <a class="dropdown-item" href="Street art.html">Стрит-арт</a>
+                        <a class="dropdown-item" href="Color Field.html">Живопись цветового поля</a>
+                        <a class="dropdown-item" href="Performance.html">Перформанс</a>
+                        <a class="dropdown-item" href="Minimalism.html">Минимализм</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-slide">
+      <img class="d-block w-100" src="images/Дэмьен Херст/Damien Hirst main.jpg">
+    </div>
+
+
+
+
+
+    <main class="main-content">
+      <section style="background-image: url(images/back/point.jpg); background-size: cover">
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Damien Hirst work.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto pt-5" style="text-align:justify;">
+                  <h1 class="main-cont__title" style="font-family: 'Unbounded', cursive;">Damien Hirst</h1>
+                  <p class="main-cont__text">
+                    - британский художник-концептуалист. В конце 2000-х годов стал самым дорогим и самым богатым 
+                    художником мира.
+                  </p>
+                  <p class="main-cont__text">
+                    Дэмиен Херст родился 7 июня 1965 года в Бристоле в Великобритании, 
+                    но детство провел в Лидсе. Отец Дэмиена остался неизвестен, отчим, продавец машин, 
+                    покинул семью, когда Дэмиену было 12 лет (согласно некоторым источникам, семью покинул 
+                    все же отец Дэмиена, автомеханик). Мать, католичка, работавшая в общественном бюро 
+                    консультации населения, по ее собственному признанию, рано потеряла влияние на сына.
+                  </p>
+                  <p class="main-cont__text">
+                    Дэмиена дважды арестовывали за мелкое воровство, но тем не менее, он закончил основной 
+                    школьный курс и поступил в местную школу искусств, где, впрочем, надолго не задержался. 
+                    Однако Херст серьезно увлекся рисованием и делал зарисовки, в частности, в морге.
+                  </p>
+                  <p class="main-cont__text">
+                    Не закончив школу искусств в Лидсе, Херст отправился в Лондон, где два года проработал 
+                    на строительных площадках, а затем - после двух неудачных попыток поступить в художественные 
+                    учебные заведения - был принят в колледж Голдсмитс (Goldsmiths College), в котором обучался 
+                    с 1986 по 1989 годы.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row pb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Впервые Херст привлек к себе внимание публики в 1988 году, когда он организовал выставку 
+                    "Freeze", где с его работами познакомился известный магнат и коллекционер произведений искусства 
+                    Чарльз Саатчи (Charles Saatchi). В течение года Саатчи купил два произведения Херста (согласно 
+                    другим источникам, Саатчи приобрел первую работу Херста лишь в 1990 году).
+                  </p>
+                  <p class="main-cont__text">
+                    В 1990 году Херст участвовал в организации выставок "Modern Medicine" и "Gambler". 
+                    Выставленная на этих выставках работа "Тысяча лет" (A Thousand Years), представляющая собой 
+                    стеклянный контейнер с головой коровы и трупными мухами, была приобретена Саатчи. Начиная 
+                    с этого времени и вплоть до 2003 года Саатчи оставался покровителем Херста; всего за это 
+                    время он купил около 50 работ художника.
+                  </p>
+                  <p class="main-cont__text">
+                    Херст продолжал работать с фауной, используя для создания шокирующих образов насекомых, 
+                    разделанных свиней, коровьи мозги и т.д. (уже после того как Херст стал известным, 
+                    некоторые из его работ спровоцировали демонстрации протеста защитников животных). 
+                    Критики отмечали, что использование нетипичных для искусства объектов стало одной из 
+                    принципиальных черт творчества Херста. Сам Херст заявлял, что шокирование зрителей не 
+                    является самоцелью его работ.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/A Thousand Years.webp" alt="" class="img-fluid pb-4">
+                <img src="images/Дэмьен Херст/A Thousand Years2.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">A Thousand Years (1990)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/The Physical Impossibility of Death in the Mind of Someone Living.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:start;">The Physical Impossibility of Death in the Mind of Someone Living (1991)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:start;">Damien Hirst</p>
+              </div>
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto pt-4" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    В 1992 году Херст вместе с художниками Маркусом Харви (Marcus Harvey) и Трэйси Эмин (Tracey Emin) 
+                    создал группу "Молодые британские художники" (Young British Artists). В марте 1992 года в галерее 
+                    Саатчи была показана изготовленная при финансовой поддержке Саатчи работа Херста 1991 года 
+                    "Физическая невозможность смерти в сознании живущего" (The Physical Impossibility of Death in 
+                    the Mind of Someone Living), представлявшая собой стеклянный контейнер, заполненный формальдегидом, 
+                    в котором плавало тело гигантской тигровой акулы. Благодаря этой работе Херст получил большую 
+                    известность. В том же году Херст был впервые номинирован на премию Тернера, главную британскую 
+                    награду в области современного искусства, но не получил ее.
+                  </p>
+                  <p class="main-cont__text">
+                    Сейчас акула в аквариуме уже другая — прошлая, пойманная у берегов Австралии, начала распадаться 
+                    еще в 2005-м. После этого Хёрст заказал новых акул, одна из них была законсервирована и помещена 
+                    в старый аквариум. Этот жест замены одного произведения на другое спровоцировал много дискуссий 
+                    на тему уникальности объекта искусства.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+ 
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6 col-md-7 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    В 1994 году Херст курировал выставку "Some Went Mad, Some Ran Away". 
+                    На выставке произошел скандал с работой Херста "Отбилась от стада" (Away from the Flock), 
+                    овцой в формальдегиде, которая отдельными критиками воспринималась как автопортрет Херста. 
+                    Художник Марк Бриджер (Mark Bridger) вылил в аквариум с овцой черные чернила и объявил о 
+                    переименовании ее в "Паршивую овцу" (Black Sheep). Несмотря на то, что сам Бриджер расценивал 
+                    свой поступок как творческий вклад, Херст добился суда над Бриджером и выступил в качестве 
+                    свидетеля обвинения.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Away from the Flock.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Away from the Flock (1994)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    В 1995 году Херст наконец получил премию Тернера за композицию "Разделенные мать и дитя" 
+                    (Mother and Child Divided), представляющую собой части коровы и теленка в стеклянных контейнерах 
+                    (по другим сведениям эта работа, созданная еще в 1993 году, была представлена Херстом на выставке 
+                    по случаю вручения премии, а номинирован он был за организацию выставок).
+                  </p>
+                  <p class="main-cont__text">
+                    В том же году Херст выступил в качестве режиссера видеоклипа группы Blur на ставшую хитом песню 
+                    "Country House", с актером Кейтом Алленом (Keith Allen) в главной роли. Позже, в 1998 году, 
+                    Херст вместе с Алленом и басистом Blur Алексом Джеймсом (Alex James) участвовал в создании группы 
+                    Fat Les, известной своими футбольными гимнами "Vindaloo" и "Jerusalem".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-5 col-md-5 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Mother and Child Divided2.jpeg" alt="" class="img-fluid pb-4">
+                <img src="images/Дэмьен Херст/Mother and Child Divided3.jpeg" alt="" class="img-fluid">
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Mother and Child Divided.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Mother and Child Divided (1993)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Новый скандал с участием Херста разразился в 2000 году, когда Саатчи купил у него приблизительно 
+                    за 1 миллион долларов огромную бронзовую скульптуру "Гимн" (Hymn, 1999), являющуюся увеличенной 
+                    копией обычной анатомической модели. Херст был обвинен в нарушении авторских прав, 
+                    но выплатил отступные деньги в благотворительные организации и автору модели.
+                  </p>
+                  <p class="main-cont__text">
+                    В 2007 году Херст стал самым дорогим художником мира, продав на аукционе Сотбис свою работу 
+                    "Весенняя колыбельная" (Lullaby Spring) за 9,65 миллиона фунтов (19,3 миллиона долларов), 
+                    но уже в августе он побил собственный рекорд, продав инкрустированный бриллиантами платиновый 
+                    череп "Ради любви к Богу" (For the Love of God) за 50 миллионов фунтов (около 100 миллионов долларов). 
+                    Само это произведение представляет собой копию черепа европейца 35 лет, сделанную из платины и 
+                    полностью инкрустированную бриллиантами. В центре лба черепа расположен розовый алмаз. 
+                    К 2008 году СМИ называли Херста самым богатым художником мира: его состояние в это время превышало 
+                    миллиард долларов.
+                  </p>
+                  <p class="main-cont__text">
+                    В сентябре 2007 года Херст представил публике новое произведение "Стадо: археология утраченных 
+                    желаний, осмысляющих бесконечность и поиск знаний" (School: The Archaeology of Lost Desires, 
+                    Comprehending Infinity, and the Search for Knowledge), включающее тридцать освежеванных овец, 
+                    акулу, клетку с дохлым голубем, куски говядины и триста сосисок. Работа была выполнена по заказу 
+                    одного из нью-йорских выставочных залов и должна была быть размещена в его вестибюле.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Hymn, 1999.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Humn (1999)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/Lullaby Spring2.jpeg" alt="" class="img-fluid">
+                <img src="images/Дэмьен Херст/Lullaby Spring.webp" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Lullaby Spring (2002)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/For the Love of God 2.png" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">For the Love of God (2007)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/School- The Archaeology of Lost Desires, Comprehending Infinity, and the Search for Knowledge.jpeg" alt="" class="img-fluid">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">School: The Archaeology of Lost Desires, 
+                  Comprehending Infinity, and the Search for Knowledge (2007)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row pb-5">
+              <div class="col-lg-6 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Несмотря на концептуальные основы произведений Херста, трудно отрицать нарочито скандальный 
+                    характер многих работ данного художника. Вслед за мертвыми животными в формальдегиде и самым 
+                    дорогим произведением искусства в мире следует упомянуть инсталляцию «In and Out of Love» 
+                    («Влюбиться и разлюбить» или в данном случае «Внутри и вне любви»). К холстам на стенах были 
+                    прикреплены куколки, из которых появлялись бабочки. Входя в помещение, зрители оказывались 
+                    среди этих насекомых, которые летали вокруг них, садясь как на самих зрителей, так и на емкости 
+                    с фруктами, размещенные в этом же помещении. Выставка проходила в галереи «Тейт Модерн» и длилась 
+                    5 месяцев. За это время она привлекла более 460000 посетителей и стала самой посещаемой персональной 
+                    выставкой в истории галереи. Позже появилась информация, что 9000 бабочек за время проведения 
+                    выставки погибли и это вызвало протесты со стороны ряда природозащитных организаций.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 py-5 mr-auto ml-auto mt-auto mb-auto">
+                <img src="images/Дэмьен Херст/In and Out of Love.jpg" alt="" class="img-fluid pb-4">
+                <h5 class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">In and Out of Love (1991)</h5>
+                <p class="main-cont__title" style="font-family: 'Unbounded', cursive; text-align:end;">Damien Hirst</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-cont">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mr-auto ml-auto mt-auto mb-auto">
+                <div class="mt-auto mb-auto" style="text-align:justify;">
+                  <p class="main-cont__text">
+                    Живопись Дэмиена Херста может быть отнесена к геометрическому абстракционизму (пример: серия 
+                    «Пятна» (Spot paintings)) и абстрактному экспрессионизму (пример: серия «Вращения» (Spin paintings)). 
+                    Серия «Пятна» состоит из картин, на которых изображены одинаковые по размеру, но разные по цвету 
+                    кружки (цвет никогда не повторяется), расположенные в форме решетки. Серия «Вращения» состоит из картин, 
+                    которые были созданы путем выливания краски на вращающийся холст. Также Херст является автором ряда картин, 
+                    которые возвращают нас к теме бабочек: серия Butterfly Colour Paintings состоит из работ, где на еще 
+                    не высохшую краску крепятся мертвые бабочки, которые и становятся основой композиции.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <div class="container-fluid pb-5">
+            <div class="grid" id="grid">
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Dream, (2008).jpeg" data-caption='The Dream (2008)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Dream, (2008).jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Broken Dream, 2008.jpeg" data-caption='he Broken Dream (2008)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Broken Dream, 2008.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Forms Without Life', Damien Hirst, 1991.jpeg" data-caption='Forms Without Life (1991)'>
+                    <img class="img-responsive" src="images/Дэмьен Херст/Forms Without Life', Damien Hirst, 1991.jpeg" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Golden Calf, 2008 .jpeg" data-caption='The Golden Calf (2008)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Golden Calf, 2008 .jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Golden Mammoth 2014.webp" data-caption='Golden Mammoth (2014)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Golden Mammoth 2014.webpp" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Immaculate Heart 2008.jpeg" data-caption='The Immaculate Heart (2008)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Immaculate Heart 2008.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Incredible Journey 2008.jpeg" data-caption='The Incredible Journey (2008)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Incredible Journey 2008.jpeg" alt="">
+                </a>
+              </div>
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Exquisite Pain 2007.webp" data-caption='Exquisite Pain (2007)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Exquisite Pain 2007.webp" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Spot Painting 1986 .png" data-caption='Spot Painting (1986)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Spot Painting 1986 .png" alt="">
+                </a>
+              </div>  
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Cineole Damien Hirst 2004.webp" data-caption='Cineole (2004)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Cineole Damien Hirst 2004.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Dequalinium Chloride 2016.webp" data-caption='Dequalinium Chloride (2016)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Dequalinium Chloride 2016.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/The Veil Paintings 2017.jpeg" data-caption='The Veil Paintings (2017)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/The Veil Paintings 2017.jpeg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Cherry Blossom 2021.jpeg" data-caption='Cherry Blossom (2021)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Cherry Blossom 2021.jpeg" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Circle Spin Painting (2009) .png" data-caption='Circle Spin Painting (2009)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Circle Spin Painting (2009) .png" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Love Is All You Need 2009.webp" data-caption='Love Is All You Need (2009)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Love Is All You Need 2009.webp" alt="">
+                </a>
+              </div> 
+              <div class="grid-item">
+                <a data-fancybox="gallery" href="images/Дэмьен Херст/Miss Bugs 2020.jpeg" data-caption='Miss Bugs (2020)'>
+                  <img class="img-responsive" src="images/Дэмьен Херст/Miss Bugs 2020.jpeg" alt="">
+                </a>
+              </div> 
+            </div>          
+          </div>
+        </section>
+        
+        <!-- creators -->
+      <section id="iq-creators" style="padding-top: 10%;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 overflow-hidden">
+              <div class="iq-main-header d-flex align-items-center justify-content-between">
+                <h4 class="main-title">Другие криэйторы</h4>
+                <a href="All creators.html" class="iq-view-all">Все</a>
+              </div>
+              <div class="creator-contens">
+                <ul class="creators-slider list-inline row p-0 mb-0">
+                  <!-- slide item 1 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Жан-Мишель Баския/Жан-Мишель Баския pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Basquiat.html"> Жан-Мишель Баския </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 2 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дженни Савиль/Дженни Савиль pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jenny Saville.html"> Дженни Савиль </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 3 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джефф Кунс/Джефф Кунс pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Jeff Koons.html"> Джефф Кунс </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- slide item 4 -->
+                  
+                  <!-- slide item 5 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Амоако Боафо/Амоако Боафо pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Amoako Boafo.html"> Амоако Боафо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 6 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Яеи Кусама/Яеи Кусама pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yayoi Kusama.html"> Яеи Кусама </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 7 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Маурицио Каттелан/Маурицио Каттелан pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Maurizio Cattelan.html"> Маурицио Каттелан </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 8 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Эрик Булатов/Эрик Булатов pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Eric Bulatov.html"> Эрик Булатов</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 9 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Такаси Мураками/Такаси Мураками pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Takashi Murakami.html"> Такаси Мураками </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 10 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Дэвид Хокни/Дэвид Хокни pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="David Hockney.html"> Дэвид Хокни </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 11 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Георг Базелиц/Георг Базелиц pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Georg Baselitz.html"> Георг Базелиц </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 12 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Энди Уорхол/Энди Уорхол pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Andy Warhol.html"> Энди Уорхол </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 13 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Керри Джеймс Маршалл/Керри Джеймс Маршалл pr.webp" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Kerry James Marshall.html"> Керри Джеймс Маршалл </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 14 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Кристофер Вул/Кристофер Вул pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Christopher Wool.html"> Кристофер Вул </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 15 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Цзэн Фаньчжи/Цзэн Фаньчжи pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Zeng Fanzhi.html"> Цзэн Фаньчжи </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 16 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/kaws/kaws pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="KAWS.html"> KAWS </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 17 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Гленн Браун/Гленн Браун pr.jpg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Glenn Brown.html"> Гленн Браун</a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 18 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Джордж Кондо/Джордж Кондо pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="George Condo.html"> Джордж Кондо </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 19 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Герхард Рихтер/Герхард Рихтер pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Gerhard Richter.html"> Герхард Рихтер </a>
+                        </h6>
+                    </div>
+                  </li>
+                  <!-- slide item 20 -->
+                  <li class="slide-item">
+                    <div class="block-images position-relative">
+                      <div class="img-box">
+                        <img src="images/Ёситомо Нара/Ёситомо Нара pr.jpeg" class="img-fluid" alt="" />
+                      </div>
+                      <div class="block-description">
+                        <h6 class="iq-title">
+                          <a href="Yoshitomo Nara.html"> Ёситомо Нара </a>
+                        </h6>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+    </main>
+    <footer class="iq-bg-dark">
+      <div class="footer-top">
+        <div class="container-fluid">
+          <div class="row footer-standard justify-content-center">
+            <div class="col-lg-3">
+              <div class="footer__copy">
+                <p class="footer copy-text">
+                    Made by Ionova Margarita Sergeevna
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- js files  -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/select2.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/slick-animation.min.js"></script>
+
+
+  <!-- fancyBox JS -->
+  <script src="js/jquery.fancybox.min.js"></script>
+  <!-- Gridify JS -->
+  <script src="js/gridify.js"></script>
+
+
+  <script src="main.js"></script>
+</body>
+</html
