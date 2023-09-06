@@ -286,7 +286,12 @@ header .navbar ul li.nav-item a:hover{
 
 
 
-/* ----------- Main slides ------------ */
+/* ----------- Main slides ------------ 
+.carousel-item {
+    max-height: 100vh;
+    height: 100%;
+}
+*/
 .carousel-inner {
     position: relative;
     width: 100%;
@@ -294,7 +299,6 @@ header .navbar ul li.nav-item a:hover{
     max-height: 100vh;
 }
 .carousel-item {
-    max-height: 100vh;
     height: 100%;
 }
 .carousel .slide{
@@ -321,29 +325,19 @@ header .navbar ul li.nav-item a:hover{
 @media (max-width : 991px){
     .carousel-inner {
         position: relative;
-        width: 100%;
+        width: auto;
         overflow: hidden;
-        max-height: 38vh;
+        max-height: 70vh;
+    }
+    .crop{
+        float: right;
+        width: auto;
+        position: relative;
+        height: 100%;
+        right: -50%;
     }
 }
 
-@media (max-width : 768px){
-    .carousel-inner {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        max-height: 41vh;
-    }
-}
-
-@media (max-width : 767px) {
-    .carousel-inner {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        max-height: 25vh;
-    }
-}
 
 
 
